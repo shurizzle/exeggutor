@@ -1,0 +1,20 @@
+{
+    "name": "shura/exeggutor",
+    "description": "Exeggutor is a dual-type Grass/Psychic PHP library to execute shell commands.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Domenico Shura",
+            "email": "shura1991@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.6.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Shura\\Exeggutor\\": "src"
+        }
+    }
+}
